@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gretldata SYSTEM "gretldata.dtd">
+
+<gretldata version="1.5" name="tdz18" frequency="1" n="23" startobs="2000" endobs="2022" type="time-series">
+<description>Данные импортированы из CSV файла 'd18.csv', 2025-05-22 18:17
+</description>
+<variables count="3">
+<variable name="yrslv"
+/>
+<variable name="kgn"
+/>
+<variable name="uln"
+/>
+</variables>
+<observations count="23" labels="false">
+<obs>7.4 12.9 6.6 </obs>
+<obs>6.7 13.1 8.6 </obs>
+<obs>3.8 10.7 6.1 </obs>
+<obs>5.7 9.4 7.3 </obs>
+<obs>4.6 12.4 9.5 </obs>
+<obs>3.9 11.4 7.7 </obs>
+<obs>2.9 12.2 6.8 </obs>
+<obs>3.4 8.5 4.6 </obs>
+<obs>5.8 9.3 7 </obs>
+<obs>7.9 13.2 8.9 </obs>
+<obs>7.5 12.1 8.8 </obs>
+<obs>5.1 10 6.8 </obs>
+<obs>3.4 8.7 5.6 </obs>
+<obs>4.5 7.5 5.5 </obs>
+<obs>3.8 7 4.8 </obs>
+<obs>5.3 7.5 4.9 </obs>
+<obs>6.7 8.4 4.6 </obs>
+<obs>6.6 9.1 4.4 </obs>
+<obs>5.5 8 3.7 </obs>
+<obs>5.4 7.8 3.8 </obs>
+<obs>7.3 8.3 4.9 </obs>
+<obs>5.9 7.7 4.3 </obs>
+<obs>5 6.5 4.2 </obs>
+</observations>
+</gretldata>

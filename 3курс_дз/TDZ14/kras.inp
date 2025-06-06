@@ -1,0 +1,14 @@
+# Запись истории команд начата 2025-04-24 15:45
+# Запись истории команд текущей сессии.  Учтите, что для запуска
+# этих команд в скрипте, возможно, придется внести некоторые изменения.
+open /Users/aleksandrartemev/Downloads/krasnodar_values_only.csv
+setobs 12 2006:01 --time-series
+rename 1 krasnodar
+gnuplot krasnodar --time-series --with-lines
+pergm krasnodar 23
+include season_plot.gfn
+season_plot_gui(krasnodar, 1, 900, 600, 12)
+season_plot_gui(krasnodar, 2, 900, 600, 12)
+season_plot_gui(krasnodar, 2, 700, 400, 12)
+corrgm krasnodar 21
+corrgm krasnodar 30
